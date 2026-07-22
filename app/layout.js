@@ -15,7 +15,7 @@ export const metadata = {
   title: "Flirty Spark",
   description: "IT Soltuiions & Digital Marketing ",
     icons: {
-    icon: "/logo/logo.png",
+    icon: "/logo/newlogo.png",
   },
 };
 
