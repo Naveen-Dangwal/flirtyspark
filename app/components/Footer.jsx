@@ -177,7 +177,7 @@ export default function Footer() {
             © {currentYear} Flirty Spark. All Rights Reserved.
           </p>
 
-          <div className="flex gap-6 text-sm text-gray-500">
+          {/* <div className="flex gap-6 text-sm text-gray-500">
             <Link className="hover:text-white transition" href="/privacy-policy">
               Privacy Policy
             </Link>
@@ -187,7 +187,7 @@ export default function Footer() {
             <Link className="hover:text-white transition" href="/cookie-policy">
               Cookie Policy
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 
