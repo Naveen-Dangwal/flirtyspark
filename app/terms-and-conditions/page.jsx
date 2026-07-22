@@ -36,7 +36,7 @@ export default function TermsConditionsPage() {
             {/* Intro */}
             <div>
               <p className="text-gray-700 leading-relaxed text-[17px] text-justify">
-                Welcome to <strong>Ramadhiraj Power Systems Pvt. Ltd.</strong>{" "}
+                Welcome to <strong>flirtyspark Power Systems Pvt. Ltd.</strong>{" "}
                 By accessing our website, products, or services, you agree to
                 comply with and be bound by the following Terms and Conditions.
                 Please read them carefully before using our website or engaging
@@ -77,7 +77,7 @@ export default function TermsConditionsPage() {
               </div>
 
               <p className="text-gray-700 leading-relaxed text-[16px] text-justify">
-                Ramadhiraj Power Systems Pvt. Ltd. specializes in industrial
+                flirtyspark Power Systems Pvt. Ltd. specializes in industrial
                 emergency lighting systems and related industrial lighting
                 solutions designed for commercial, infrastructure, and
                 industrial applications.
@@ -152,7 +152,7 @@ export default function TermsConditionsPage() {
               <p className="text-gray-700 leading-relaxed text-[16px] text-justify">
                 All content on this website including logos, graphics, product
                 images, text, designs, and branding materials are the property
-                of Ramadhiraj Power Systems Pvt. Ltd. Unauthorized use,
+                of flirtyspark Power Systems Pvt. Ltd. Unauthorized use,
                 reproduction, or distribution is strictly prohibited.
               </p>
             </div>
@@ -164,7 +164,7 @@ export default function TermsConditionsPage() {
               </h2>
 
               <p className="text-gray-700 leading-relaxed text-[16px] text-justify">
-                All quotations provided by Ramadhiraj Power Systems Pvt. Ltd.
+                All quotations provided by flirtyspark Power Systems Pvt. Ltd.
                 are subject to revision based on product specifications,
                 quantities, availability, and project requirements.
               </p>
@@ -188,7 +188,7 @@ export default function TermsConditionsPage() {
               </div>
 
               <p className="text-gray-700 leading-relaxed text-[16px] text-justify">
-                Ramadhiraj Power Systems Pvt. Ltd. shall not be held liable for
+                flirtyspark Power Systems Pvt. Ltd. shall not be held liable for
                 any direct, indirect, incidental, or consequential damages
                 arising from the use of our website, products, or services.
               </p>
@@ -233,7 +233,7 @@ export default function TermsConditionsPage() {
               </h2>
 
               <p className="text-gray-700 leading-relaxed text-[16px]  text-justify">
-                Ramadhiraj Power Systems Pvt. Ltd. reserves the right to update
+                flirtyspark Power Systems Pvt. Ltd. reserves the right to update
                 or modify these Terms and Conditions at any time without prior
                 notice. Continued use of the website indicates acceptance of
                 updated terms.
@@ -266,16 +266,16 @@ export default function TermsConditionsPage() {
 
               <div className="mt-5 space-y-2 text-gray-800">
                 <p className="font-semibold">
-                  Ramadhiraj Power Systems 
+                  flirtyspark Power Systems 
                 </p>
 
                 <p>
                   Email:{" "}
                   <a
-                    href="mailto:ramadhirajpowersystems@gmail.com"
+                    href="mailto:flirtysparkpowersystems@gmail.com"
                     className="text-[#e21d23] hover:underline"
                   >
-                    ramadhirajpowersystems@gmail.com
+                    flirtysparkpowersystems@gmail.com
                   </a>
                 </p>
               </div>

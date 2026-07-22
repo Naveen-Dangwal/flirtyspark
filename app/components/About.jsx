@@ -95,7 +95,7 @@ export default function About() {
           >
             <div className="rounded-xl overflow-hidden shadow-2xl ring-1 ring-gray-100">
               <img
-                src="/about/1.jpg"
+                src="/about/about.png"
                 alt="Digital Technology"
                 className="w-full h-[520px] object-cover hover:scale-105 transition-transform duration-700"
               />

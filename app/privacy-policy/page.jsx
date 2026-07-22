@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
           {/* Intro */}
           <div>
             <p className="text-gray-700 leading-relaxed text-[17px] text-justify">
-              At <strong>Ramadhiraj Power Systems Pvt. Ltd.</strong>, we are
+              At <strong>flirtyspark Power Systems Pvt. Ltd.</strong>, we are
               committed to protecting the privacy and security of our customers,
               website visitors, and business partners. This Privacy Policy
               explains how we collect, use, and safeguard your information when
@@ -106,7 +106,7 @@ export default function PrivacyPolicyPage() {
             </h2>
 
             <p className="text-gray-700 leading-relaxed text-[16px] text-justify">
-              Ramadhiraj Power Systems Pvt. Ltd. does not sell, rent, or trade
+              flirtyspark Power Systems Pvt. Ltd. does not sell, rent, or trade
               personal information to third parties. Information may only be
               shared when required by law or for necessary business operations
               with trusted service providers.
@@ -166,7 +166,7 @@ export default function PrivacyPolicyPage() {
             </h2>
 
             <p className="text-gray-700 leading-relaxed text-[16px] text-justify">
-              Ramadhiraj Power Systems Pvt. Ltd. reserves the right to update or
+              flirtyspark Power Systems Pvt. Ltd. reserves the right to update or
               modify this Privacy Policy at any time. Changes will be reflected
               on this page.
             </p>
@@ -185,16 +185,16 @@ export default function PrivacyPolicyPage() {
 
             <div className="mt-5 space-y-2 text-gray-800">
               <p className="font-semibold">
-                Ramadhiraj Power Systems
+                flirtyspark Power Systems
               </p>
 
               <p>
                 Email:{" "}
                 <a
-                  href="mailto:ramadhirajpowersystems@gmail.com"
+                  href="mailto:flirtysparkpowersystems@gmail.com"
                   className="text-[#e21d23] hover:underline"
                 >
-                  ramadhirajpowersystems@gmail.com
+                  flirtysparkpowersystems@gmail.com
                 </a>
               </p>
             </div>

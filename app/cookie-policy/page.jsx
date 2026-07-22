@@ -31,7 +31,7 @@ export default function CookiePolicyPage() {
             </h1>
 
             {/* <p className="mt-5 text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
-              Ramadhiraj Power Systems Pvt. Ltd.
+              flirtyspark Power Systems Pvt. Ltd.
             </p> */}
           </div>
 
@@ -41,7 +41,7 @@ export default function CookiePolicyPage() {
             <div>
               <p className="text-gray-700 leading-relaxed text-[17px] text-justify">
                 This Cookie Policy explains how{" "}
-                <strong>Ramadhiraj Power Systems Pvt. Ltd.</strong> uses cookies
+                <strong>flirtyspark Power Systems Pvt. Ltd.</strong> uses cookies
                 and similar technologies on our website to improve user
                 experience, website functionality, and performance.
               </p>
@@ -229,7 +229,7 @@ export default function CookiePolicyPage() {
               </h2>
 
               <p className="text-gray-700 leading-relaxed text-[16px]">
-                Ramadhiraj Power Systems Pvt. Ltd. reserves the right to update
+                flirtyspark Power Systems Pvt. Ltd. reserves the right to update
                 or modify this Cookie Policy at any time. Any changes will be
                 reflected on this page.
               </p>
@@ -247,16 +247,16 @@ export default function CookiePolicyPage() {
 
               <div className="mt-5 space-y-2 text-gray-800">
                 <p className="font-semibold">
-                  Ramadhiraj Power Systems 
+                  flirtyspark Power Systems 
                 </p>
 
                 <p>
                   Email:{" "}
                   <a
-                    href="mailto: ramadhirajpowersystems@gmail.com"
+                    href="mailto: flirtysparkpowersystems@gmail.com"
                     className="text-[#e21d23] hover:underline"
                   >
-                     ramadhirajpowersystems@gmail.com
+                     flirtysparkpowersystems@gmail.com
                   </a>
                 </p>
               </div>

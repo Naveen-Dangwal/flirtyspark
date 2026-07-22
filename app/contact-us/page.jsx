@@ -101,7 +101,7 @@ export default function ContactPage() {
    <section className="w-full overflow-hidden">
   <div className="w-full">
     <img
-      src="/contact/banner.jpg"
+      src="/contact/contact.png"
       alt="Contact Banner"
       className="w-full  sm:h-[320px] md:h-[450px] lg:h-[350px] object-cover object-center"
     />
@@ -131,24 +131,24 @@ export default function ContactPage() {
               <InfoBox
                 icon={<Phone size={20} />}
                 title="Phone Number"
-                value="+91 7428855574, +91 7428855573"
+                value="+91 9187702923"
               />
               <InfoBox
                 icon={<Mail size={20} />}
                 title="Email ID"
-                value="ramadhirajpowersystems@gmail.com"
+                value="flirtyspark@gmail.com"
               />
 
               <InfoBox
                 icon={<MapPin size={20} className="w-20 " />}
                 title="Registered Office Address"
-                value="A35/A Sector 67 Noida Uttar Pradesh - 201309"
+                value="C/o mallappa Santoji, mallappa Santoji Ayyappa, Bengaluru, Bengaluru, Bengaluru, Karnataka, India, 560117"
               />
-              <InfoBox
+              {/* <InfoBox
                 icon={<Factory size={20} className="w-20 " />}
                 title="Manufacturing Unit Address"
                 value="A35/A Sector 67 Noida Uttar Pradesh - 201309"
-              />
+              /> */}
             </div>
           </div>
 

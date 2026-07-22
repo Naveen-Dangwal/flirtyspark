@@ -221,7 +221,7 @@ export default function EnquirySideModal() {
 
                 <form onSubmit={handleSubmit} className="space-y-5">
                   {/* Product Dropdown */}
-                  <div>
+                  {/* <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
                       Select Product
                     </label>
@@ -249,7 +249,7 @@ export default function EnquirySideModal() {
                         </option>
                       ))}
                     </select>
-                  </div>
+                  </div> */}
 
                   {/* Name */}
                   <div>

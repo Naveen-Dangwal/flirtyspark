@@ -51,7 +51,7 @@ export default function CTA() {
           <h2
             className={`text-3xl md:text-4xl lg:text-4xl font-medium text-white mb-4 transition-all duration-700 delay-100 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
           >
-                          Ready to Build Something{" "}
+            Ready to Build Something{" "}
             <span style={{ color: "#e21d23" }}>Amazing?</span>
           </h2>
 
@@ -60,14 +60,14 @@ export default function CTA() {
             className={`text-gray-300 text-[15px] max-w-2xl mx-auto mb-6 transition-all duration-700 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
           >
             Let's create digital experiences that drive growth, engage
-              audiences, and deliver measurable results for your business.
+            audiences, and deliver measurable results for your business.
           </p>
 
           {/* CTA Buttons */}
           <div
             className={`flex flex-wrap justify-center gap-4 mb-6 transition-all duration-700 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
           >
-            {/* Primary Button */}
+            {/* Primary Button - Request a Quote */}
             <Link
               href="/contact-us"
               className="group relative px-6 py-2 rounded-lg font-semibold text-white transition-all duration-300 hover:shadow-lg hover:scale-105 overflow-hidden flex items-center justify-center"
@@ -94,9 +94,17 @@ export default function CTA() {
               </span>
             </Link>
 
-            {/* Secondary Button */}
-            <button className="px-6 py-2 rounded-lg font-semibold text-white border-2 border-white hover:bg-white hover:text-gray-900 transition-all duration-300">
-              Call Us: +91 7428855574
+            {/* Secondary Button - See Pricing */}
+            <Link
+              href="/pricing"
+              className="px-6 py-2 rounded-lg font-semibold text-white border-2 border-white hover:bg-white hover:text-gray-900 transition-all duration-300 hover:shadow-lg hover:scale-105"
+            >
+              See Pricing
+            </Link>
+
+            {/* Tertiary Button - Call Us */}
+            <button className="px-6 py-2 rounded-lg font-semibold text-white border-2 border-[#e21d23] hover:bg-[#e21d23] hover:border-[#e21d23] transition-all duration-300 hover:shadow-lg hover:scale-105">
+              Call Us: +91 9187702923
             </button>
           </div>
         </div>

@@ -27,29 +27,23 @@ export default function Footer() {
     ],
     category: [
   {
-    name: "Industrial Emergency Light",
-    href: "/all-products?category=industrial",
+    name: "Web & App Development",
+    href: "/services",
   },
  
   {
-    name: "Flame Proof Industrial Emergency Light",
-    href: "/all-products?category=flame",
+    name: "SEO & Content",
+    href: "/services",
   },
   {
-    name: "Flood Light",
-    href: "/all-products?category=flood",
+    name: "Paid Ads & Social",
+    href: "/services",
   },
   {
-    name: "Street Light",
-    href: "/all-products?category=street",
+    name: "Branding & UI/UX",
+    href: "/services",
   },
-   {
-    name: "Signboard",
-    href: "/all-products?category=signboard",
-  }, {
-    name: "Signage",
-    href: "/all-products?category=signage",
-  },
+  
     
 ],
   };
@@ -82,15 +76,15 @@ export default function Footer() {
               {/* Social */}
               <div className="flex gap-5 mt-4 text-2xl">
 
-            <Link href="https://www.facebook.com/share/18vpM9Bt8v/" target="_blank" className="cursor-pointer text-[#1877F2] hover:scale-110 transition">
+            <Link href="" target="_blank" className="cursor-pointer text-[#1877F2] hover:scale-110 transition">
               <FaFacebook />
             </Link>
 
-            <Link href="https://youtube.com/@ramadhirajpowersystems?si=f41FLPk7arWaH3Np/" target="_blank" className="cursor-pointer text-[#FF0000] hover:scale-110 transition">
+            <Link href="" target="_blank" className="cursor-pointer text-[#FF0000] hover:scale-110 transition">
               <FaYoutube />
             </Link>
 
-            <Link href="https://www.instagram.com/ramadhirajpowersystems?igsh=emp6aTkwa2hycTFv/" target="_blank" className="cursor-pointer text-[#E4405F] hover:scale-110 transition">
+            <Link href="" target="_blank" className="cursor-pointer text-[#E4405F] hover:scale-110 transition">
               <FaInstagram />
             </Link>
 
@@ -155,18 +149,18 @@ export default function Footer() {
               <div className="space-y-4 text-gray-400 text-sm">
 
                 <div className="flex gap-3">
-                  <HiOutlineLocationMarker className="text-[#e21d23] text-3xl" />
-                  <p>A35/A Sector 67 Noida Uttar Pradesh - 201309</p>
+                  <HiOutlineLocationMarker className="text-[#e21d23] text-6xl" />
+                  <p>C/o mallappa Santoji, mallappa Santoji Ayyappa, Bengaluru, Bengaluru, Bengaluru, Karnataka, India, 560117</p>
                 </div>
 
                 <div className="flex gap-3">
                   <HiOutlinePhone className="text-[#e21d23] text-lg" />
-                  <p>+91 7428855574, +91 7428855573</p>
+                  <p>+91 9187702923</p>
                 </div>
 
                 <div className="flex gap-3">
                   <HiOutlineMail className="text-[#e21d23] text-lg" />
-                  <p>ramadhirajpowersystems@gmail.com</p>
+                  <p>flirtyspark@gmail.com</p>
                 </div>
 
               </div>

@@ -141,10 +141,10 @@ export default function Services() {
       {/* ─── HERO SECTION ────────────────────────────────── */}
       <section className="relative py-24 bg-gray-900 overflow-hidden">
         {/* Background Effects */}
-        <div className="absolute inset-0">
+        {/* <div className="absolute inset-0">
           <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[#e21d23]/10 rounded-full blur-3xl" />
           <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#e21d23]/5 rounded-full blur-3xl" />
-        </div>
+        </div> */}
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 text-center">
           <motion.div
@@ -178,7 +178,7 @@ export default function Services() {
               engage, and succeed in the modern digital landscape.
             </motion.p>
 
-            <motion.div variants={fadeUp} className="mt-10 flex flex-wrap justify-center gap-4">
+            {/* <motion.div variants={fadeUp} className="mt-10 flex flex-wrap justify-center gap-4">
               <Link
                 href="/contact"
                 className="relative overflow-hidden px-8 py-4 rounded-full bg-[#e21d23] text-white font-semibold hover:bg-black transition-all duration-300 shadow-lg"
@@ -192,7 +192,7 @@ export default function Services() {
               >
                 Explore Services
               </Link>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </section>

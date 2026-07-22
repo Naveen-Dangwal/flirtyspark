@@ -311,7 +311,7 @@ export default function About() {
         <div className="text-sm text-center">
           <div className="mx-auto w-full overflow-hidden">
             <img
-              src="/about/aboutusbanner.jpg"
+              src="/about/banner.png"
               alt="About Flirty Spark"
               className="w-full h-full object-cover object-center"
             />
@@ -396,13 +396,27 @@ export default function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: false }}
                   transition={{ duration: 0.7, delay: 0.7 }}
-                  className="text-gray-700 text-justify leading-relaxed"
+                  className="text-gray-700 text-justify leading-relaxed mb-6"
                 >
                   With a focus on quality, creativity, and measurable results,
                   we deliver pixel-perfect websites, high-converting campaigns,
                   and unforgettable brand experiences that help our clients
                   thrive in the digital landscape.
                 </motion.p>
+
+                <motion.p
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: false }}
+                  transition={{ duration: 0.7, delay: 0.7 }}
+                  className="text-gray-700 text-justify leading-relaxed"
+                >
+                  We specialize in building fast, scalable digital solutions — custom websites, web applications, and mobile experiences engineered with modern technology stacks for exceptional performance and user delight.
+
+                </motion.p>
+
+
+
               </motion.div>
             </motion.div>
 
@@ -422,7 +436,7 @@ export default function About() {
                 className="relative h-[363px] w-full overflow-hidden rounded-[24px]"
               >
                 <img
-                  src="/about/2.jpeg"
+                  src="/about/about.png"
                   alt="Flirty Spark Team"
                   className="object-cover object-top w-full hover:scale-105 transition-transform duration-700"
                 />
@@ -487,11 +501,10 @@ export default function About() {
                     whileTap={{ scale: 0.95 }}
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
-                    className={`relative rounded-xl px-5 py-2.5 text-xs font-bold uppercase tracking-wide transition-all duration-300 md:px-6 md:text-sm ${
-                      activeTab === tab.id
-                        ? "scale-[1.02] bg-red-600 text-white shadow-md"
-                        : "text-gray-600 hover:text-black"
-                    }`}
+                    className={`relative rounded-xl px-5 py-2.5 text-xs font-bold uppercase tracking-wide transition-all duration-300 md:px-6 md:text-sm ${activeTab === tab.id
+                      ? "scale-[1.02] bg-red-600 text-white shadow-md"
+                      : "text-gray-600 hover:text-black"
+                      }`}
                   >
                     {tab.label}
                   </motion.button>
@@ -841,7 +854,7 @@ export default function About() {
         </section>
 
         {/* Certifications Section */}
-        <section className="relative overflow-x-hidden overflow-y-hidden py-12 bg-white">
+         {/* <section className="relative overflow-x-hidden overflow-y-hidden py-12 bg-white">
           <div className="relative max-w-9xl mx-auto overflow-y-hidden">
             <motion.div
               initial={{ opacity: 0, y: 80 }}
@@ -885,13 +898,13 @@ export default function About() {
                   initial={{ width: 0, opacity: 0 }}
                   whileInView={{ width: 80, opacity: 1 }}
                   viewport={{ once: false }}
-                                    transition={{ duration: 1, delay: 0.6 }}
+                  transition={{ duration: 1, delay: 0.6 }}
                   className="h-1 rounded-full bg-red-600"
                 />
               </div>
             </motion.div>
 
-            {/* MARQUEE — react-fast-marquee avoids CSS -50% loop gaps */}
+            
             <div className="relative overflow-x-hidden overflow-y-hidden">
               <Marquee
                 pauseOnHover
@@ -934,10 +947,10 @@ export default function About() {
             </div>
           </div>
 
-          {/* IMAGE PREVIEW MODAL */}
+          
           {selectedImage && (
             <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 p-4">
-              {/* Close Button */}
+            
               <button
                 onClick={() => setSelectedImage(null)}
                 className="fixed top-4 right-7 md:top-5 md:right-[600px] z-[10000] flex h-12 w-12 items-center justify-center rounded-full bg-white text-black shadow-2xl transition hover:scale-110"
@@ -945,7 +958,7 @@ export default function About() {
                 <X className="h-6 w-6" />
               </button>
 
-              {/* Preview Card — Next Image fill + object-contain (gallery-style preview) */}
+              
               <div className="relative flex w-full max-w-xl flex-col overflow-hidden rounded-3xl bg-gray-100 shadow-2xl">
                 <div className="relative mx-auto h-[75vh] w-full">
                   <Image
@@ -971,7 +984,7 @@ export default function About() {
               </div>
             </div>
           )}
-        </section>
+        </section>  */}
 
         {/* CTA Section */}
         <section className="relative overflow-hidden py-12 bg-gradient-to-r from-gray-900 to-gray-800">
@@ -1017,7 +1030,7 @@ export default function About() {
                 whileTap={{ scale: 0.96 }}
               >
                 <Link
-                  href="/contact"
+                  href="/contact-us"
                   className="group relative overflow-hidden inline-flex items-center justify-center px-8 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-red-500/30"
                   style={{ backgroundColor: "#e21d23" }}
                 >

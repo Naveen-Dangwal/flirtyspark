@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ramadhiraj",
+  title: "Flirty Spark",
   description: "IT Soltuiions & Digital Marketing ",
     icons: {
     icon: "/logo/logo.png",

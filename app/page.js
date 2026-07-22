@@ -22,7 +22,7 @@ const page = () => {
     <WhyChooseUs />
     {/* <Products /> */}
     <Industries />
-       <Parallax img="/parallax/banner1.png"/>
+       <Parallax img="/parallax/1.png"/>
       <Blog />
       <CTA />
     <Testimonial/>

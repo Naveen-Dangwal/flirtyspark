@@ -160,7 +160,7 @@ export default function Navbar() {
 
               <div className="flex items-center gap-6">
                 <a
-                  href="mailto:info@ramadhiraj.in"
+                  href="mailto:info@flirtyspark.in"
                   className="flex items-center gap-2 hover:text-white transition-colors"
                 >
                   <Mail className="w-4 h-4" />
@@ -172,7 +172,7 @@ export default function Navbar() {
                   className="flex items-center gap-2 hover:text-white transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>+91 7428855574</span>
+                  <span>+91 9187702923</span>
                 </a>
               </div>
             </div>
@@ -186,9 +186,9 @@ export default function Navbar() {
             {/* Logo */}
             <a href="/" className="flex items-center">
               <img
-                src="/logo/flirtyspark.png"
-                alt="Ramadhiraj Logo"
-                className="w-20 sm:w-18 object-contain"
+                src="/logo/newlogo.png"
+                alt="flirtyspark Logo"
+                className="w-20 sm:w-20 object-contain"
               />
             </a>
             {/* Desktop Navigation */}
@@ -197,8 +197,10 @@ export default function Navbar() {
                 { name: "Home", href: "/" },
                 { name: "About", href: "/about" },
                 { name: "Services", href: "/services" },
+               { name: "Pricing", href: "/pricing" },
 
-                { name: "Products", href: "/all-products" },
+
+                // { name: "Products", href: "/all-products" },
                 // { name: "Industries", href: "/industries" },
                 { name: "Contact", href: "/contact-us" },
               ].map((item) => (
@@ -256,7 +258,7 @@ export default function Navbar() {
             </nav>
             {/* CTA */}
             <div className="hidden lg:flex items-center gap-3">
-              <a
+              {/* <a
                 href="/brochure.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -264,7 +266,7 @@ export default function Navbar() {
               >
                 <FileText className="w-4 h-4"/>
                 Brochure
-              </a>
+              </a> */}
 
               <button
                 onClick={() => setIsModalOpen(true)}
@@ -296,7 +298,9 @@ export default function Navbar() {
                 {[
                   { name: "Home", link: "/" },
                   { name: "About", link: "/about" },
-                  { name: "Products", link: "/all-products" },
+                  // { name: "Products", link: "/all-products" },
+                  { name: "Services", link: "/services" },
+                  { name: "Pricing", link: "/pricing" },
 
                   { name: "Contact", link: "/contact-us" },
                 ].map((item) => (
@@ -323,7 +327,7 @@ export default function Navbar() {
 
                   <div className="flex items-center justify-center gap-5 mt-4 text-sm text-slate-500">
                     <a
-                      href="mailto:info@ramadhiraj.in"
+                      href="mailto:info@flirtyspark.in"
                       className="flex items-center gap-1.5 hover:text-[#e21d23] transition"
                     >
                       <Mail className="w-4 h-4" />
@@ -383,7 +387,7 @@ export default function Navbar() {
                 {/* FORM */}
                 <form onSubmit={handleSubmit} className="space-y-5">
                   {/* PRODUCT DROPDOWN */}
-                  <div>
+                  {/* <div>
                     <label className="block text-sm font-medium mb-2">
                       Select Product
                     </label>
@@ -403,7 +407,7 @@ export default function Navbar() {
                         </option>
                       ))}
                     </select>
-                  </div>
+                  </div> */}
 
                   {/* NAME */}
                   <div>
