@@ -15,6 +15,7 @@ import {
 import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
 import EnquirySideModal from "./EnquiryModel";
+import Link from "next/link";
 
 export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -202,7 +203,7 @@ export default function Navbar() {
 
                 // { name: "Products", href: "/all-products" },
                 // { name: "Industries", href: "/industries" },
-                { name: "Contact", href: "/contact-us" },
+                // { name: "Contact", href: "/contact-us" },
               ].map((item) => (
                 <a
                   key={item.name}
@@ -268,15 +269,18 @@ export default function Navbar() {
                 Brochure
               </a> */}
 
-              <button
-                onClick={() => setIsModalOpen(true)}
+<Link href="contact-us">
+   <button
+                // onClick={() => setIsModalOpen(true)}
                 className="group relative overflow-hidden px-6 py-3 rounded-xl bg-[#e21d23] text-white font-semibold shadow-lg shadow-red-500/20 hover:bg-[#c81a1f] hover:shadow-red-500/30 transition-all duration-300"
               >
                 
                 <span className="absolute top-0 left-[-120%] h-full w-[40%] animate-shine bg-gradient-to-r from-transparent via-white/40 to-transparent skew-x-12" />
 
-                <span className="relative z-10">Get Consultation</span>
+                <span className="relative z-10">Contact US</span>
               </button>
+</Link>
+           
             </div>
             {/* Mobile Toggle */}
             <button
@@ -302,7 +306,7 @@ export default function Navbar() {
                   { name: "Services", link: "/services" },
                   { name: "Pricing", link: "/pricing" },
 
-                  { name: "Contact", link: "/contact-us" },
+                  // { name: "Contact", link: "/contact-us" },
                 ].map((item) => (
                   <a
                     key={item.name}
@@ -315,15 +319,17 @@ export default function Navbar() {
                 ))}
 
                 <div className="pt-4 mt-4 border-t border-slate-100">
-                  <button
-                    onClick={() => {
-                      setIsModalOpen(true);
-                      setMobileMenu(false);
-                    }}
+                  <Link href="contact-us">
+                   <button
+                    // onClick={() => {
+                    //   setIsModalOpen(true);
+                    //   setMobileMenu(false);
+                    // }}
                     className="w-full py-3 rounded-xl bg-[#e21d23] text-white font-semibold shadow-lg"
                   >
-                    Get Consultation
-                  </button>
+                    Contact Us
+                  </button></Link>
+                 
 
                   <div className="flex items-center justify-center gap-5 mt-4 text-sm text-slate-500">
                     <a
