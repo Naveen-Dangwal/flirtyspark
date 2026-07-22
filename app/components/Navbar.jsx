@@ -272,7 +272,7 @@ export default function Navbar() {
                 onClick={() => setIsModalOpen(true)}
                 className="group relative overflow-hidden px-6 py-3 rounded-xl bg-[#e21d23] text-white font-semibold shadow-lg shadow-red-500/20 hover:bg-[#c81a1f] hover:shadow-red-500/30 transition-all duration-300"
               >
-                {/* Shine Effect */}
+                
                 <span className="absolute top-0 left-[-120%] h-full w-[40%] animate-shine bg-gradient-to-r from-transparent via-white/40 to-transparent skew-x-12" />
 
                 <span className="relative z-10">Get Consultation</span>

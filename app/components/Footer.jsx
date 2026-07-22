@@ -21,7 +21,9 @@ export default function Footer() {
     company: [
         { name: "Home", href: "/" },
       { name: "About", href: "/about" },
-      { name: "Products", href: "/all-products" },
+      // { name: "Products", href: "/all-products" },
+      { name: "Services", href: "/services"},
+      { name: "Pricing", href: "/pricing"},
       { name: "Contact Us", href: "/contact" },
       // { name: "Blog", href: "/blog" },
     ],
